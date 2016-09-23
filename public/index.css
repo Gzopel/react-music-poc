@@ -1,0 +1,15 @@
+.react-music-canvas {
+    display: block;
+    margin: 30px auto 0;
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+.drums-controller-button {
+    border: 1px solid #00A000;
+    margin: 10px;
+}
+
+.drums-controller-button-pressed {
+    border: 1px solid #A00000;
+    margin: 10px;
+}
