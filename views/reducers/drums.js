@@ -2,8 +2,8 @@ export const initialState = {
   config: {
     bars :1,
     resolution :12,
-    kickSteps:[0, 2, 8, 10],
-    snareSteps:[4, 12],
+    kickSteps:[],
+    snareSteps:[],
   }
 };
 

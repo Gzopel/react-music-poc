@@ -1,6 +1,6 @@
 export const initialState = {
   config: {
-    tempo: 90,
+    tempo: 120,
     playing: true,
   }
 };

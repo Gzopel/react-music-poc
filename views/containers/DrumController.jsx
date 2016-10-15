@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 class DrumsComponent extends React.Component {
   buttons = (type) => {
-    return Array.apply(this,Array(this.props.drums.resolution+1)).map((empty, key) =>
+    return Array.apply(this,Array(this.props.drums.resolution)).map((empty, key) =>
       <button
         className={'drums-controller-button' + (this.props.drums[type + 'Steps'].indexOf(key)>-1 ? '-pressed' : '')}
         type='button'
