@@ -9,7 +9,11 @@
   "author": "jepunto@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "babel-eslint": "^7.0.0",
     "babel-loader": "^6.2.5",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
     "express": "^4.14.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
